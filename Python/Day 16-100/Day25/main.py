@@ -20,5 +20,5 @@ data = pandas.read_csv("weather_data.csv")
 monday = data[data.day == "Monday"]
 monday_temp = monday.temp[0]
 F = (monday_temp * 1.8) + 32
-monday.update(monday.temp = monday_temp)
-print(monday_temp)
+#monday.update(monday.temp = monday_temp)
+print(F)
